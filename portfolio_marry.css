@@ -1,0 +1,810 @@
+*
+{
+	margin: 0px;
+	padding: opx;
+
+}
+#outer
+{
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.1);
+
+}
+#first
+{
+	height: 5vh;
+	width: 100%;
+	background:yellow;
+}
+#menu
+{
+	height: 15vh;
+	width: 100%;
+	background: maroon;
+}
+#menu p
+{
+	text-transform: uppercase;
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+	margin-left: 10px;
+}
+#menu ul 
+{
+	list-style: none;
+	text-transform: uppercase;
+	
+}
+#menu ul li
+{
+	float: left;
+    text-align: center;
+	margin-left: 100px;
+	font-size: 10px;
+	line-height: 15vh;
+}
+#menu ul li a
+{
+	text-decoration: none;color: whitesmoke;	
+}
+#fd
+{
+	height: 500px;
+	width: 100%;
+	background-image:url('bride.jpg');
+   background-size:1350px 680px;
+   animation-name: first;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-duration: 10s;
+   animation-delay: 0s;
+   animation-iteration-count: infinite;
+   float: left;
+}
+
+
+
+@keyframes first
+{
+	0%{
+		background-image: url('bride.jpg');
+		background-size: 1350px 680px;
+	}
+	20%{
+		background-image: url('bride1.jpg');
+	background-size:1350px 680px;
+}
+	50%{
+		background-image: url('bride2.jpg');
+		background-size: 1350px 680px;
+	}
+	80%{
+		background-image: url('hldi.jpg');
+		background-size:1350px 680px;
+	}
+	100%{
+		background-image: url('bride3.jpg');
+		background-size: 1350px 680px;
+	}
+
+}
+.ab
+{
+	height: 50%;
+	width: 35%;
+	background: rgba(0, 0, 0, 0.2);
+    margin-left:60% ;
+    margin-top: 60px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 17px;
+    border: 2px dashed white;
+    border-radius:10px inset ;
+}
+.ab p
+{
+	margin-left: 10px;
+}
+.p1
+{
+	font-size: 30px;
+	color: gold;
+}
+.p2
+{
+	font-size: 30px;
+	color: white;
+} 
+
+
+#td 
+{
+	height: 500px;
+	width: 100%;
+	background-image: url('white2.jpg');
+}
+.td1
+{
+	height: 500px;
+	width: 60%;
+	background: transparent;
+	font-size: 20px;
+	margin-left: 50px;
+	float: left;
+
+}
+.td1 .para
+{
+	font-size: 35px;
+	text-transform: capitalize;
+	padding-top: 20px;
+}
+.td2
+{
+	height: 400px;
+	width: 30%;
+
+	background-image: url('wedding.jpg');
+	background-size: cover;
+	border: 5px solid white;
+	border-radius: 5px inset white;
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+	animation-name: second;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-duration: 10s;
+}
+@keyframes second
+{
+	0%
+	{
+		background-image: url('wedding.jpg');
+		background-size: cover;
+	}
+	10%
+	{
+		background-image: url('wedding1.jpg');
+		background-size: cover;
+	}
+	30%
+	{
+		background-image: url('marrige2.jpg');
+		background-size: cover;
+	}
+	50%
+	{
+		background-image: url('marrige3.jpg');
+		background-size: cover;
+	}
+	70%
+	{
+		background-image: url('marrige4.jpeg');
+		background-size: cover;
+	}
+	85%
+    {
+		background-image: url('wedding3.jpg');
+		background-size: cover;
+	}
+	100%
+	{
+		background-image: url('sindur4.jpg');
+		background-size: cover;
+	}
+}
+#sd
+{ 
+   height: 500px;
+   width: 100%;
+   background:yellow;
+}
+
+#ud 
+{
+	height: 500px;
+	width: 100%;
+	background-image:url('white3.jpg');
+}
+#ud .yd1
+{
+	height: 500px;
+	width: 60%;
+	background:rgba(238, 183, 0, 0.61);
+	
+	float: left;
+
+}
+.yd1 p
+{
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 30px;
+}
+ .yd1 div
+ {
+ 	height:60px;
+ 	width: 98;
+ 	border-left: 2px solid maroon;
+ 	padding: 2px;
+ 	color: maroon;
+ 	margin-left: 20px;
+ } 
+ #ud .yd2
+ {
+ 	height: 500px;
+ 	width: 40%;
+ 	background:rgba(238, 183, 0, 0.61); 
+ 	float: left;
+ }
+ 
+ 	
+ 
+ .yd2 div
+ {
+ 	height: 300px;
+ 	width: 60%;
+ 	border:2px solid white; 
+ 	border-radius: 50%;
+ 	margin-top: 60px;
+ 	margin-left: 70px;
+ 	background-image: url('bride3.jpg');
+ 	background-size: cover;
+ 	animation-name: third;
+ 	animation-duration: 5s;
+ 	animation-iteration-count: infinite;
+ 	animation-direction: alternate-reverse;
+ 	animation-delay: 2s;
+ }
+ @keyframes third
+ {
+ 	from{
+ 		background-image: url('bride3.jpg');
+ 		background-size: cover;
+ 		transform: rotate(0deg);
+ 		
+ 	}
+ 	to 
+ 	{
+ 		background-image: url('bride.jpg');
+ 		background-size: cover;
+ 		transform: rotate(50deg);
+ 		border-radius: 50px;
+ 	}
+ }
+ #d5
+ {
+ 	height: 500px;
+ 	width: 100%;
+ 	background-image: url('white4.jpg');
+
+ }
+ #d5 .c1
+ {
+ 	height: 500px;
+ 	width: 35%;
+ 	background: rgba(232, 232, 232, 0.67);float: left;
+ }
+ #d5 .c1 .c1c
+ {
+ 	height: 300px;
+ 	width: 60%;
+ 	border: 1px solid white;
+ 	box-shadow: 0px 0px 0px 2px whitesmoke ;
+ 	margin-left: 80px;
+ 	border-radius: 50%;
+ 	background-image: url('sindur3.jpg');
+ 	background-size: cover;
+ 	margin-top: 100px;
+ }#d5 .c1 .c1c:hover
+ {
+ 	border-radius: 50px;
+
+ }
+ .c1 .c1c p
+ {
+ 	font-size: 20px;
+ 	text-transform: uppercase;
+ 	color: maroon;
+ 	background:rgba(238, 183, 0, 0.61);
+ 	margin-left: 10px;
+ 	margin-top: 300px;text-align: center;	
+ }
+ .c1 .c1c p span
+ {
+ 	color: maroon;
+ 	font-weight: bolder;
+ }
+
+  #d5 .c2
+ {
+ 	height: 500px;
+ 	width: 30%;
+ 	background: rgba(232, 232, 232, 0.67);float: left;
+ }
+ #d5 .c2 p
+ {
+ 	font-size: 30px;
+ 	margin-left: 50px;
+ 	margin-top: 40px;
+ }
+ #d5 .c2 .c2c{
+ 	height: 300px;
+ 	width: 70%;
+ 	border: 1px solid white;
+ 	box-shadow: 0px 0px 0px 2px whitesmoke ;
+ 	margin-left: 20px;
+ 	border-radius: 50%;
+ 	background-image: url('sindur4.jpg');
+ 	background-size: cover;
+ 	margin-top: 40px;
+ }
+ #d5 .c2 .c2c:hover
+ {
+ 	border-radius: 50px;
+ }
+ .c2 .c2c p
+ {
+ 	font-size: 20px;
+ 	text-transform: uppercase;
+ 	color: maroon;
+ 	background:rgba(238, 183, 0, 0.61);
+ 	
+ 	text-align: center;	
+ }
+ .c2 .c2c p span
+ {
+ 	color: maroon;
+ 	font-weight: bolder;
+ }
+  #d5 .c3
+ {
+ 	height: 500px;
+ 	width: 35%;
+ 	background: rgba(232, 232, 232, 0.67);float: left;
+
+ }
+ #d5 .c3 .c3c
+ {
+ 	height: 300px;
+ 	width: 60%;
+ 	border: 1px solid white;
+ 	box-shadow: 0px 0px 0px 2px whitesmoke ;
+ 	margin-left: 10px;
+ 	border-radius: 50%;
+ 	background-image: url('sindur1.jpg');
+ 	background-size: cover;
+ 	margin-top: 100px;
+ }
+ #d5 .c3 .c3c:hover
+ {
+ 	border-radius: 50px;
+ }
+ .c3 .c3c p
+ {
+ 	font-size: 20px;
+ 	text-transform: uppercase;
+ 	color: maroon;
+ 	background:rgba(238, 183, 0, 0.61);
+ 	margin-left: 10px;
+ 	margin-top: 300px;text-align: center;	
+ }
+ .c3 .c3c p span
+ {
+ 	color: maroon;
+ 	font-weight: bolder;
+ }
+
+ #d6
+ {
+ 	height: 500px;
+ 	width: 100%;
+ 	background-image: url('white4.jpg');
+
+ }
+#d6 .b1
+{
+
+	height: 500px;
+	width: 60%;
+	background:rgba(238, 183, 0, 0.61);
+	
+	float: left;
+
+}
+.b1 p
+{
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 30px;
+}
+ .b1 div
+ {
+ 	height:60px;
+ 	width: 98;
+ 	border-left: 2px solid maroon;
+ 	padding: 2px;
+ 	color: maroon;
+ 	margin-left: 20px;
+ } 
+ #d6 .b2
+ {
+ 	height: 500px;
+ 	width: 40%;
+ 	background:rgba(238, 183, 0, 0.61); 
+ 	float: left;
+ }
+ .b2 div
+ {
+ 	height: 300px;
+ 	width: 60%;
+ 	border:2px solid white; 
+ 	border-radius: 50%;
+ 	margin-top: 60px;
+ 	margin-left: 70px;
+ 	background-image: url('marrige4.jpeg');
+ 	background-size: cover;
+ 	animation-name: fourth;
+ 	animation-duration: 10s;
+ 	animation-delay: 5s;
+ 	animation-iteration-count: infinite;
+
+ }
+  @keyframes fourth
+ {
+ 	from{
+ 		background-image: url('sindur2.jpg');
+ 		background-size: cover;
+ 		transform: rotate(0deg);
+ 		
+ 	}
+ 	to 
+ 	{
+ 		background-image: url('sindur1.jpg');
+ 		background-size: cover;
+ 		transform: rotate(360deg);
+ 		border-radius: 50px;
+ 	}
+ }
+
+
+ #d7
+ {
+ 	height: 500px;
+ 	width: 100%;
+ 	background-image: url(marrige2.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+
+ }
+ #d7 .dd1
+ {
+ 	height: 500px;
+ 	width: 30%;
+ 	background: rgba(213, 34, 34, 0.5);float: left;
+ }
+ #d7 .dd1 .dc1
+ {
+ 	height: 300px;
+ 	width: 68%;
+ 	background-image: url('sindur.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 21%;
+    margin-top: 100px;
+ 
+ 	animation-name: round1;
+ 	animation-duration: 8s;
+ 	animation-delay: 5s;
+ 	animation-iteration-count: infinite;
+ }
+ @keyframes round1
+ {
+ 	from{
+ 		background-image: url('sindur2.jpg');
+ 		background-size: cover;
+ 		transform: rotate(0deg);
+ 		
+ 	}
+ 	to 
+ 	{
+ 		background-image: url('sindur.jpg');
+ 		background-size: cover;
+ 		transform: rotate(360deg);
+ 		border-radius: 20px;
+ 	}
+ }
+
+ #d7 .dd1 p
+ {
+ 	text-transform: capitalize;
+ 	text-align: center;
+ 	font-size: 20px;
+ 	color: whitesmoke;
+
+ }
+ #d7 .dd1 p span
+ {
+     color: yellow;
+
+ }
+ #d7 .dd2
+ {
+ 	height: 500px;
+ 	width: 20%;
+ 	background: rgba(213, 34, 34, 0.5);float: left;
+ }
+ #d7 .dd2 .dc2
+ {
+ 	height: 300px;
+ 	width: 100%;
+ 	background-image: url('bride3.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    
+    margin-top: 100px;
+ animation-name: round2;
+ 	animation-duration: 16s;
+ 	animation-delay: 5s;
+ 	animation-iteration-count: infinite;
+ }
+ @keyframes round2
+ {
+ 	from{
+ 		background-image: url('hldi.jpg');
+ 		background-size: cover;
+ 		transform: rotate(0deg);
+ 		
+ 	}
+ 	to 
+ 	{
+ 		background-image: url('wedding3.jpg');
+ 		background-size: cover;
+ 		transform: rotate(360deg);
+ 		border-radius: 50px;
+ 	}
+ }
+
+ #d7 .dd2 p
+ {
+ 	text-transform: capitalize;
+ 	text-align: center;
+ 	font-size: 20px;
+ 	color: whitesmoke;
+
+ }
+ #d7 .dd2 p span
+ {
+     color: yellow;
+
+ }
+ #d7 .dd3
+ {
+ 	height: 500px;
+ 	width: 20%;
+ 	background: rgba(213, 34, 34, 0.5);float: left;
+ }
+ #d7 .dd3 .dc3
+ {
+ 	height: 300px;
+ 	width: 100%;
+ 	background-image: url('wedding.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 100px;
+    animation-name: round3;
+ 	animation-duration: 24s;
+ 	animation-delay: 5s;
+ 	animation-iteration-count: infinite;
+ }
+ @keyframes round3
+ {
+ 	from{
+ 		background-image: url('mehndi1.jpg');
+ 		background-size: cover;
+ 		transform: rotate(0deg);
+ 		
+ 	}
+ 	to 
+ 	{
+ 		background-image: url('bride1.jpg');
+ 		background-size: cover;
+ 		transform: rotate(360deg);
+ 		border-radius: 50px;
+ 	}
+ }
+ #d7 .dd3 p
+ {
+ 	text-transform: capitalize;
+ 	text-align: center;
+ 	font-size: 20px;
+ 	color: whitesmoke;
+
+ }
+ #d7 .dd3 p span
+ {
+     color: yellow;
+
+ }
+ #d7 .dd4
+ {
+ 	height: 500px;
+ 	width: 30%;
+ 	background: rgba(213, 34, 34, 0.5);float: left;
+ }
+ #d7 .dd4 .dc4
+ {
+ 	height: 300px;
+ 	width: 68%;
+ 	background-image: url('bride.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 21%;
+    margin-top: 100px;
+    animation-name: round4;
+ 	animation-duration: 32s;
+ 	animation-delay: 5s;
+ 	animation-iteration-count: infinite;
+ }
+ @keyframes round4
+ {
+ 	from{
+ 		background-image: url('marrige3.jpg');
+ 		background-size: cover;
+ 		transform: rotate(0deg);
+ 		
+ 	}
+ 	to 
+ 	{
+ 		background-image: url('sindur4.jpg');
+ 		background-size: cover;
+ 		transform: rotate(360deg);
+ 		border-radius: 50px;
+ 	}
+ }
+ #d7 .dd4 p
+ {
+ 	text-transform: capitalize;
+ 	text-align: center;
+ 	font-size: 20px;
+ 	color: whitesmoke;
+
+ }
+ #d7 .dd4 p span
+ {
+     color: yellow;
+
+ }
+
+ #d8
+ {
+ 	height: 500px;
+ 	width: 100%;
+ 	background-image: url('white4.jpg');
+
+ }
+ #d8c1
+ {
+ 	height: 500px;
+ 	width: 50%;
+ 	background: rgba(232, 232, 232, 0.67);
+ 	float: left;
+ }
+ #d8c1 p
+ {
+ 	width: 80%;
+ 	text-transform:capitalize;
+ 	font-size: 30px;
+ 	margin-left:15% ;
+ 	margin-top: 20px;
+ 	font-weight: bolder;
+ 	padding-bottom: 5px;
+ }
+ #d8c1 form
+ {
+ 	font-size: 25px;
+ 	text-align: center;
+
+ }
+ #d8c1 button
+ {
+ 	height: 30px;
+ 	font-size: 25px;
+ 	width: 90px;
+ 	color: white;
+ 	background: maroon;
+
+ }
+ #d8c1 input
+ {
+ 	width: 80%;
+ 	padding: 15px;
+ 	margin: 10px;
+ 	background: rgba(0, 0, 0, 0.1);
+ 	font-weight: bolder;
+ 	margin-left: 15%;
+ }
+ #d8c1 textarea
+ {
+ 	width: 80%;
+ 	padding: 15px;
+ 	margin: 10px;
+ 	background: rgba(0, 0, 0, 0.1);
+ 	font-weight: bolder;
+ 	margin-left: 15%;
+ }
+ .d8c2
+ {
+ 	height: 500px;
+ 	width: 50%;
+ 	float: left;
+ 	background: rgba(232, 232, 232, 0.67);
+ }
+ .d8c2 h2
+ {
+ 	font-size: 40px;
+ 	margin-left: 20px;
+ 	padding: 20px;
+ }
+ .d8c2 .contact
+ {
+ 	margin-left: 40px;
+ }
+ #d9
+ {
+ 	height: 500px;
+ 	width: 100%;
+ 	background:maroon;
+
+ }#d9 p a 
+ {
+ 	text-decoration: none;
+ 	color: white;
+ 	font-size: 25px;
+ }
+ #d9 p
+ {
+ 	color: white;
+ 	font-size: 25px;
+ }
+ #d9 .mandir
+ {
+ 	height: 300px;
+ 	width: 25%;
+ 	border: 1px solid black;
+ 	border-radius: 50%;
+ 	margin-left: 10%;float: left;
+ 	background-image: url('prem_mandir.jpg');
+ 	background-size: cover;
+ 	box-shadow: 1px 1px 20px black;
+ }
+ #d9 .map
+ {
+ 	height: 200px;
+ 	width: 300px;
+ 	margin-left: 50px;
+ 	float: left;
+
+ }
+ #d9 .footer
+ {
+ 	height: 200px;
+ 	width: 30%;
+ 	float: left;	
+ }
+ #d9 .footer p
+ {
+ 	text-align: center;
+ }
+ #d9 .footer textarea
+ {
+ 	height:50px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 5px;
+ }
+
